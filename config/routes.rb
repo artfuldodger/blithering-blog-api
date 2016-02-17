@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :posts
+  jsonapi_resources :posts
 end

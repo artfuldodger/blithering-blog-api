@@ -1,11 +1,10 @@
 GIT
-  remote: git://github.com/rails-api/active_model_serializers.git
-  revision: a6c6979e081fe5c40c471a5fe7cd9d305a471d15
+  remote: git://github.com/cerebris/jsonapi-resources.git
+  revision: 831e87503b4faeb15322d83cf82dbb264de6378f
+  branch: rails5
   specs:
-    active_model_serializers (0.10.0.rc4)
-      actionpack (>= 4.0)
-      activemodel (>= 4.0)
-      railties (>= 4.0)
+    jsonapi-resources (0.7.0)
+      rails (>= 4.0)
 
 GIT
   remote: git://github.com/rails/rails.git
@@ -137,9 +136,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_model_serializers!
   byebug
   faker
+  jsonapi-resources!
   listen (~> 3.0.5)
   pg (~> 0.18)
   puma

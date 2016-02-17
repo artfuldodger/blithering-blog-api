@@ -4,7 +4,7 @@ gem 'rails', github: "rails/rails"
 gem 'pg', '~> 0.18'
 gem 'puma'
 gem 'faker'
-gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
+gem 'jsonapi-resources', github: 'cerebris/jsonapi-resources', branch: 'rails5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
